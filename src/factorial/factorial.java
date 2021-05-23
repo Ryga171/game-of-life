@@ -14,12 +14,12 @@ System.out.println("factorial is "+fact);
     int result=fact1(number);
     System.out.println("factorial is "+fact1(number));
 }
-static int fact1(int n){
+static int fact2(int n){
     if(n==0){
         return 1;
     }
     else {
-         return(n*fact1(n-1));
+         return(n*fact2(n-1));
 
     }
 
